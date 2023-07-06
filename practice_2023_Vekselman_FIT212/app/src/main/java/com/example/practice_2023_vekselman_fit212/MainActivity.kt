@@ -72,7 +72,7 @@ class MainActivity : ComponentActivity() {
 fun Head() {
     Image(
         painter = painterResource(id = R.drawable.image_head),
-        contentDescription = "Contact profile picture",
+        contentDescription = null,
         contentScale = ContentScale.FillWidth,
         modifier = Modifier
             .wrapContentSize(
@@ -87,7 +87,7 @@ fun LogoNameRate() {
     Row (modifier = Modifier.padding(start = 30.dp)) {
         Image(
             painter = painterResource(id = R.drawable.logo),
-            contentDescription = "Contact profile picture",
+            contentDescription = null,
             modifier = Modifier
                 .size(108.dp)
                 .background(
@@ -118,31 +118,31 @@ fun LogoNameRate() {
             Row (modifier = Modifier.padding(top = 10.dp)){
                 Image(
                     painter = painterResource(id = R.drawable.star),
-                    contentDescription = "Contact profile picture",
+                    contentDescription = null,
                     modifier = Modifier.size(20.dp)
                 )
                 Spacer(modifier = Modifier.width(5.dp))
                 Image(
                     painter = painterResource(id = R.drawable.star),
-                    contentDescription = "Contact profile picture",
+                    contentDescription = null,
                     modifier = Modifier.size(20.dp)
                 )
                 Spacer(modifier = Modifier.width(5.dp))
                 Image(
                     painter = painterResource(id = R.drawable.star),
-                    contentDescription = "Contact profile picture",
+                    contentDescription = null,
                     modifier = Modifier.size(20.dp)
                 )
                 Spacer(modifier = Modifier.width(5.dp))
                 Image(
                     painter = painterResource(id = R.drawable.star),
-                    contentDescription = "Contact profile picture",
+                    contentDescription = null,
                     modifier = Modifier.size(20.dp)
                 )
                 Spacer(modifier = Modifier.width(5.dp))
                 Image(
                     painter = painterResource(id = R.drawable.star),
-                    contentDescription = "Contact profile picture",
+                    contentDescription = null,
                     modifier = Modifier.size(20.dp)
                 )
                 Spacer(modifier = Modifier.width(15.dp))
@@ -232,14 +232,14 @@ fun Screenshots() {
         item {
             Image(
             painter = painterResource(id = R.drawable.screenshot1),
-            contentDescription = "Contact profile picture",
+            contentDescription = null,
             modifier = Modifier.size(240.dp, 150.dp)
             )
         }
         item {
             Image(
             painter = painterResource(id = R.drawable.screenshot2),
-            contentDescription = "Contact profile picture",
+            contentDescription = null,
             modifier = Modifier.size(240.dp, 150.dp)
             )
         }
@@ -281,31 +281,31 @@ fun Ratings() {
                 Row {
                     Image(
                         painter = painterResource(id = R.drawable.star),
-                        contentDescription = "Contact profile picture",
+                        contentDescription = null,
                         modifier = Modifier.size(20.dp)
                     )
                     Spacer(modifier = Modifier.width(5.dp))
                     Image(
                         painter = painterResource(id = R.drawable.star),
-                        contentDescription = "Contact profile picture",
+                        contentDescription = null,
                         modifier = Modifier.size(20.dp)
                     )
                     Spacer(modifier = Modifier.width(5.dp))
                     Image(
                         painter = painterResource(id = R.drawable.star),
-                        contentDescription = "Contact profile picture",
+                        contentDescription = null,
                         modifier = Modifier.size(20.dp)
                     )
                     Spacer(modifier = Modifier.width(5.dp))
                     Image(
                         painter = painterResource(id = R.drawable.star),
-                        contentDescription = "Contact profile picture",
+                        contentDescription = null,
                         modifier = Modifier.size(20.dp)
                     )
                     Spacer(modifier = Modifier.width(5.dp))
                     Image(
                         painter = painterResource(id = R.drawable.star),
-                        contentDescription = "Contact profile picture",
+                        contentDescription = null,
                         modifier = Modifier.size(20.dp)
                     )
                 }
@@ -336,7 +336,7 @@ fun Reviews(
         Row {
             Image(
                 painter = painterResource(id = icon),
-                contentDescription = "Contact profile picture",
+                contentDescription = null,
                 modifier = Modifier
                     .size(40.dp)
                     .clip(CircleShape)
